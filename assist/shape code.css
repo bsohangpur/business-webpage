@@ -1,0 +1,78 @@
+.bg-shapes {
+    position: relative;  
+
+    .shape1 {
+        position: absolute;
+        z-index: 2;
+        top: 30rem;
+        left: 10rem;
+        width: 15rem;
+        height: 4rem;
+        background: linear-gradient(90.03deg, #D5D7FD -19.82%, rgba(213, 215, 253, 0) 124.69%);
+        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transform: rotate(-11deg);
+    }
+    
+    .shape2 {
+        position: absolute;
+        z-index: 2;
+        top: 20rem;
+        right: 5rem;
+        width: 15rem;
+        height: 4rem;
+        background: linear-gradient(90.03deg, #D5D7FD -19.82%, rgba(213, 215, 253, 0) 124.69%);
+        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transform: rotate(-11deg);
+    } 
+
+    .shape3 {
+        position: absolute;
+        z-index: 2;
+        top: 40rem;
+        left: 5rem;
+        width: 10rem;
+        height: 1rem;
+        background: linear-gradient(90.03deg, #D5D7FD -19.82%, rgba(213, 215, 253, 0) 124.69%);
+        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transform: rotate(-11deg);
+    }
+
+    .shape4 {
+        position: absolute;
+        z-index: 2;
+        top: 30rem;
+        right: 5rem;
+        width: 8rem;
+        height: 1rem;
+        background: linear-gradient(90.03deg, #D5D7FD -19.82%, rgba(213, 215, 253, 0) 124.69%);
+        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transform: rotate(-11deg);
+    }
+}
+
+
+.contact-section {
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
+    background: linear-gradient(98.57deg, #7F8AF5 -7.13%, #666CF4 101.24%);
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;}
+
+    .contact-section::after {
+        content: "";
+        position: absolute;
+        bottom: -250px;
+        left: -10px;
+        transform: rotate(-11deg);
+        width: 110%;
+        height: 80%;
+        background-color: #fff;
+        z-index: 1;
+
+    }

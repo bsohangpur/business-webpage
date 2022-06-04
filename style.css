@@ -1,0 +1,1038 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+Header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(159, 193, 230, 0.5);
+  background-image: url(/assist/header-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+Header nav {
+  width: 100%;
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 16rem;
+  padding-left: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+Header .mobile-humbager {
+  display: none;
+}
+
+Header .head-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+Header .head-button ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+}
+
+Header .head-button ul li {
+  list-style: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+Header section {
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 16rem;
+  padding-left: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+Header section .hero-image {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+Header section .hero-image img {
+  width: 50rem;
+}
+
+Header section .hero-text {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 50%;
+  margin-bottom: 16rem;
+  margin-left: 10rem;
+  margin-right: auto;
+}
+
+Header section .hero-text .hero-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3em;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+Header section .hero-text .hero-paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 3.5rem;
+  color: rgba(51, 51, 51, 0.85);
+}
+
+.title-text {
+  text-transform: capitalize;
+  font-family: 'Sanchez';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+#Aboutus {
+  width: 100%;
+  height: 100vh;
+  padding-right: 16rem;
+  padding-left: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#Aboutus .about-bg-section {
+  width: 100%;
+  height: 60%;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #FFFFFF;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Aboutus .about-bg-section .about-section {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(103.18deg, #E7E7E7 -7.78%, rgba(255, 255, 255, 0) 105.81%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#Aboutus .about-bg-section .about-section .about-text-box {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Aboutus .about-bg-section .about-section .about-text-box .about-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  color: black;
+  display: -ms-grid;
+  display: grid;
+}
+
+#Aboutus .about-bg-section .about-section .about-text-box .about-text span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: rgba(51, 51, 51, 0.9);
+}
+
+#Aboutus .about-bg-section .about-section .about-text-box .about-paragraph {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#Aboutus .about-bg-section .about-section .about-img-box {
+  width: 50%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Aboutus .testimonal-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Aboutus .testimonal-section .textimonial-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10%;
+  width: 100%;
+}
+
+#Aboutus .testimonal-section .textimonial-box .testimonal-block {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-15.56%, #E7E7E7), color-stop(114.11%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, #E7E7E7 -15.56%, rgba(255, 255, 255, 0) 114.11%);
+  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+#Aboutus .testimonal-section .textimonial-box .testimonal-block img {
+  width: 20rem;
+}
+
+#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box h2 {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  text-transform: capitalize;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+}
+
+#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box h3 {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  text-transform: capitalize;
+  line-height: 2.5rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box p {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  text-transform: capitalize;
+  line-height: 2.5rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#service {
+  width: 100%;
+  height: 100vh;
+  padding-right: 16rem;
+  padding-left: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(159, 193, 230, 0.5);
+  background-image: url(/assist/service-back-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3.2rem;
+}
+
+#service .service-bg-section {
+  height: 85%;
+  width: 90%;
+  background: #fff;
+  padding: 1rem;
+  -webkit-box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#service .service-bg-section .service-section {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(103.18deg, #E7E7E7 -7.78%, rgba(255, 255, 255, 0) 105.81%);
+}
+
+#service .service-bg-section .service-section .service-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#service .service-bg-section .service-section .service-box h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #000000;
+}
+
+#service .service-bg-section .service-section .service-box p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #333333c7;
+}
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact .contact-section {
+  padding-right: 16rem;
+  padding-left: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(/assist/contact.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .contact-section .form-bg-box {
+  width: 90%;
+  height: 80%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3rem;
+}
+
+#contact .contact-section .form-bg-box .contact-box {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 47% 6% 47%;
+      grid-template-columns: 47% 6% 47%;
+}
+
+#contact .contact-section .form-bg-box .contact-box form {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 3.2rem;
+}
+
+#contact .contact-section .form-bg-box .contact-box form input {
+  width: 100%;
+  height: 5rem;
+  background: #F5F4FA;
+  border-radius: 0.5rem;
+  border-style: none;
+}
+
+#contact .contact-section .form-bg-box .contact-box form .massage {
+  height: 15rem;
+}
+
+#contact .contact-section .form-bg-box .contact-box form label {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #333333;
+}
+
+#contact .contact-section .form-bg-box .contact-box .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact .contact-section .form-bg-box .contact-box .divider .contact-divider {
+  width: 1rem;
+  height: 40rem;
+  background: #F5F4FA;
+  border-radius: 1rem;
+  border-style: none;
+}
+
+#contact .contact-section .form-bg-box .contact-box .contact-detail {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .contact-section .form-bg-box .contact-box .contact-detail .detail-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#contact .contact-section .form-bg-box .contact-box .contact-detail .detail-back i {
+  font-size: 2.5em;
+  color: #7078F5;
+}
+
+#contact .contact-section .form-bg-box .contact-box .contact-detail .detail-back h2 {
+  font-size: 2rem;
+}
+
+.contact-detail-img {
+  width: 35rem;
+  margin-bottom: 3.2rem;
+}
+
+footer {
+  padding-right: 16rem;
+  padding-left: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-box {
+  width: 90%;
+  height: 90%;
+  background: #333333;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-box hr {
+  width: 60%;
+  background-color: #F1F1F1;
+  border-radius: 1rem;
+  height: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer .footer-box i {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  color: #f1f1f1;
+}
+
+footer .footer-box h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 28px;
+  color: #f1f1f1;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+  header {
+    width: 100vw;
+    height: 100vh;
+  }
+  header nav {
+    height: 10%;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  header nav .logo-img {
+    padding-left: 2rem;
+  }
+  header nav .logo-img img {
+    width: 10em;
+  }
+  header nav .mobile-humbager {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-right: 2rem;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  header nav .mobile-humbager i {
+    font-size: 4rem;
+  }
+  header nav .head-button {
+    display: none;
+  }
+  header section {
+    width: 100%;
+    height: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header section .hero-image {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 5rem;
+  }
+  header section .hero-image img {
+    height: 50rem;
+    width: auto;
+  }
+  header section .hero-text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 50rem;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  header section .hero-text .hero-heading {
+    font-size: 3.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+  header section .hero-text .hero-paragraph {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .title-text {
+    margin-top: 1rem;
+    line-height: 3rem;
+    font-size: 3rem;
+  }
+  #Aboutus {
+    width: 100%;
+    height: 100vh;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #Aboutus .about-bg-section {
+    width: 90%;
+    height: 70%;
+  }
+  #Aboutus .about-bg-section .about-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0rem;
+  }
+  #Aboutus .about-bg-section .about-section .about-text-box {
+    width: 100%;
+    height: 60%;
+    padding: 1rem;
+  }
+  #Aboutus .about-bg-section .about-section .about-text-box .about-text {
+    font-size: 3.5rem;
+  }
+  #Aboutus .about-bg-section .about-section .about-text-box .about-text span {
+    font-size: 3rem;
+  }
+  #Aboutus .about-bg-section .about-section .about-text-box .about-paragraph {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  #Aboutus .about-bg-section .about-section .about-img-box {
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  #Aboutus .about-bg-section .about-section .about-img-box img {
+    height: 100%;
+  }
+  #Aboutus .testimonal-section {
+    width: 100%;
+    height: 30%;
+    justify-items: center;
+    gap: 10%;
+  }
+  #Aboutus .testimonal-section .testimonal-heading {
+    height: 20%;
+  }
+  #Aboutus .testimonal-section .textimonial-box {
+    width: 90%;
+    height: 80%;
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: column;
+    overflow: hidden;
+  }
+  #Aboutus .testimonal-section .textimonial-box .testimonal-block {
+    width: 80vw;
+    height: 80%;
+  }
+  #service {
+    gap: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #service .service-bg-section {
+    height: 90%;
+    width: 80%;
+    padding: 1rem;
+  }
+  #service .service-bg-section .service-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+  }
+  #service .service-bg-section .service-section .service-box {
+    width: 100%;
+  }
+  #service .service-bg-section .service-section .service-box h3 {
+    font-size: 2.5rem;
+  }
+  #service .service-bg-section .service-section .service-box p {
+    font-size: 1.5rem;
+  }
+  #contact {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0%;
+  }
+  #contact .contact-section {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #contact .contact-section .form-bg-box {
+    height: 95%;
+  }
+  #contact .contact-section .form-bg-box .contact-box {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 50rem 10rem 60rem;
+        grid-template-rows: 50rem 10rem 60rem;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    gap: 1rem;
+    padding: 0rem;
+  }
+  #contact .contact-section .form-bg-box .contact-box form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.75);
+  }
+  #contact .contact-section .form-bg-box .contact-box form input {
+    width: 100%;
+    height: 5rem;
+    background: #F5F4FA;
+    border-radius: 5px;
+    border-style: none;
+  }
+  #contact .contact-section .form-bg-box .contact-box form .massage {
+    height: 20rem;
+  }
+  #contact .contact-section .form-bg-box .contact-box form label {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  #contact .contact-section .form-bg-box .contact-box .divider {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  #contact .contact-section .form-bg-box .contact-box .divider .contact-divider {
+    width: 80%;
+    height: 1.5rem;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    background: #F5F4FA;
+    border-radius: 1rem;
+    border-style: none;
+  }
+  #contact .contact-section .form-bg-box .contact-box .contact-detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #contact .contact-section .form-bg-box .contact-box .contact-detail img {
+    width: 35rem;
+  }
+  #contact .contact-section .form-bg-box .contact-box .contact-detail .detail-box .detail-back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #contact .contact-section .form-bg-box .contact-box .contact-detail .detail-box .detail-back i {
+    font-size: 2.5rem;
+  }
+  #contact .contact-section .form-bg-box .contact-box .contact-detail .detail-box .detail-back h2 {
+    font-size: 2.5rem;
+  }
+  .contact-detail-img {
+    width: 35rem;
+    margin-bottom: 1rem;
+  }
+  footer {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  footer .footer-box {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
+  html {
+    font-size: 50%;
+  }
+  header {
+    height: 60vh;
+  }
+  header nav {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  header section {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60%;
+  }
+  header section .hero-text {
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+  }
+  header section .hero-image img {
+    width: 40rem;
+  }
+  #Aboutus {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    padding: 2rem;
+  }
+  #Aboutus .about-bg-section .about-section {
+    gap: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #Aboutus .testimonal-section .textimonial-box {
+    gap: 1rem;
+  }
+  #service {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #contact {
+    height: auto;
+  }
+  #contact .contact-section {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  #contact .contact-section .form-bg-box {
+    height: auto;
+  }
+  #contact .contact-section .form-bg-box .contact-box {
+    height: auto;
+    padding: 10rem;
+  }
+  #contact .contact-section .form-bg-box .contact-box .contact-detail .detail-back {
+    gap: 10%;
+  }
+  footer {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-height: 420px) {
+  header {
+    height: 100vh;
+  }
+  header nav {
+    height: 20%;
+  }
+  header section {
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: 80%;
+  }
+  header section .hero-image img {
+    width: 35rem;
+  }
+  #service {
+    height: auto;
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
