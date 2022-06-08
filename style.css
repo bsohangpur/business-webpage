@@ -829,8 +829,6 @@ footer .footer-box h3 {
     margin-right: auto;
     margin-left: auto;
     padding-top: 5rem;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   #contact .contact-section .form-bg-box {
     height: 100%;
@@ -858,10 +856,11 @@ footer .footer-box h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 2rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem 2rem;
     margin-left: auto;
     margin-right: auto;
-    gap: 2rem;
     border-radius: 1rem;
     -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.75);
             box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.75);
