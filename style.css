@@ -7,6 +7,11 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 Header {
@@ -37,7 +42,7 @@ Header .mobile-humbager {
   display: none;
 }
 
-Header .head-button {
+Header .menu-item {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,14 +52,7 @@ Header .head-button {
           justify-content: flex-end;
 }
 
-Header .head-button ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1.6rem;
-}
-
-Header .head-button ul li {
+Header .menu-item ul li {
   list-style: none;
   font-family: 'Roboto';
   font-style: normal;
@@ -612,6 +610,15 @@ footer .footer-box h3 {
   color: #f1f1f1;
 }
 
+@media only screen and (min-width: 1080px) {
+  .menu-item ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.6rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   html {
     font-size: 40%;
@@ -645,9 +652,6 @@ footer .footer-box h3 {
   }
   header nav .mobile-humbager i {
     font-size: 4rem;
-  }
-  header nav .head-button {
-    display: none;
   }
   header section {
     width: 100%;
@@ -947,6 +951,12 @@ footer .footer-box h3 {
     margin-right: auto;
     margin-left: auto;
   }
+  header nav .menu-item ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.6rem;
+  }
   header section {
     padding-right: 1.6rem;
     padding-left: 1.6rem;
@@ -1033,6 +1043,198 @@ footer .footer-box h3 {
   #service {
     height: auto;
     padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-menu {
+    width: 10rem;
+    height: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mobile-menu-box {
+    z-index: 999;
+    width: 5rem;
+    height: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .mobile-menu-line {
+    width: 5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #b84f4f;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .mobile-menu-line::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    width: 3rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #b84f4f;
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+  }
+  .mobile-menu-line::before {
+    content: "";
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 3rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #b84f4f;
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+  }
+  .mobile-menu-line-open {
+    width: 0rem;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .mobile-menu-line-open::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    width: 5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #b84f4f;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  }
+  .mobile-menu-line-open::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    width: 5rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #b84f4f;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  }
+  nav {
+    position: relative;
+  }
+  .menu-item-open {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+  }
+  .menu-item-open ul {
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+    width: 50vw;
+    -ms-flex-line-pack: space-evenly;
+        align-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transition: -webkit-transform 0.5s linear;
+    transition: -webkit-transform 0.5s linear;
+    transition: transform 0.5s linear;
+    transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+  }
+  .menu-item-open ul li {
+    font-size: 3rem;
+    color: #E7E7E7;
+  }
+  .menu-item {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  .menu-item ul {
+    background: rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+    width: 50vw;
+    -ms-flex-line-pack: space-evenly;
+        align-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  .menu-item ul li {
+    font-size: 3rem;
+    color: #E7E7E7;
   }
 }
 /*# sourceMappingURL=style.css.map */
