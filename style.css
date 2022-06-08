@@ -828,9 +828,12 @@ footer .footer-box h3 {
     padding-left: 0rem;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 5rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   #contact .contact-section .form-bg-box {
-    height: 95%;
+    height: 100%;
   }
   #contact .contact-section .form-bg-box .contact-box {
     width: 100%;
