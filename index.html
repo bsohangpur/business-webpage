@@ -189,13 +189,16 @@
             <div class="form-bg-box">
                 <div class="contact-box">
 
-                    <form action="post" class="">
+                    <form action="https://formspree.io/f/xvolyadq"
+                    method="POST">
                         <label for="full Name" class="">Full Name</label>
-                        <input type="text" name="full name" class="">
+                        <input autocomplete="off" placeholder="Your Name"  type="text" required name="full name" class="">
                         <label for="email" class="">Email</label>
-                        <input type="email" name="email" class="">
+                        <input autocomplete="off" placeholder="name@mail.com" type="email" required name="email" class="">
+                        <label for="email" class="">Subject</label>
+                        <input autocomplete="off" placeholder="Write your subject" type="text" required name="subject" class="">
                         <label for="massage" class="">Massage</label>
-                        <input type="text" name="massage" class="massage">
+                        <textarea autocomplete="off" min="5" placeholder="Write Your Project Detail" required class="massage" name="message" id="" cols="30" rows="10"></textarea>
                         <button type="submit">Submit</button>
                     </form>
                     <div class="divider">
