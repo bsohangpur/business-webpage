@@ -62,11 +62,6 @@ Header .menu-item ul li {
   line-height: 3rem;
 }
 
-Header .menu-item ul li a {
-  text-decoration: none;
-  color: #333333;
-}
-
 Header section {
   height: 85%;
   display: -webkit-box;
@@ -622,6 +617,10 @@ footer .footer-box h3 {
     display: -ms-flexbox;
     display: flex;
     gap: 1.6rem;
+  }
+  .menu-item ul li a {
+    text-decoration: none;
+    color: #333333;
   }
 }
 
@@ -1199,9 +1198,10 @@ footer .footer-box h3 {
     transition: transform 0.5s linear;
     transition: transform 0.5s linear, -webkit-transform 0.5s linear;
   }
-  .menu-item-open ul li {
-    font-size: 3rem;
+  .menu-item-open ul li a {
+    text-decoration: none;
     color: #E7E7E7;
+    font-size: 3rem;
   }
   .menu-item {
     width: 100%;
@@ -1240,9 +1240,10 @@ footer .footer-box h3 {
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear;
   }
-  .menu-item ul li {
-    font-size: 3rem;
+  .menu-item ul li a {
+    text-decoration: none;
     color: #E7E7E7;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
