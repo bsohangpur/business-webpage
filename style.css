@@ -738,7 +738,6 @@ footer .footer-box h3 {
     gap: 0rem;
   }
   #Aboutus .about-bg-section .about-section .about-text-box {
-    margin-top: 2rem;
     width: 100%;
     height: 60%;
     padding: 1rem;
@@ -820,8 +819,7 @@ footer .footer-box h3 {
     font-size: 1.5rem;
   }
   #contact {
-    width: 100%;
-    height: 100vh;
+    height: auto;
     margin-top: 0%;
   }
   #contact .contact-section {
@@ -830,7 +828,6 @@ footer .footer-box h3 {
     margin-right: auto;
     margin-left: auto;
     padding-top: 5rem;
-    padding-bottom: 5rem;
   }
   #contact .contact-section .form-bg-box {
     height: 100%;
@@ -846,6 +843,7 @@ footer .footer-box h3 {
     grid-auto-flow: row;
     gap: 1rem;
     padding: 0rem;
+    margin-bottom: 5rem;
   }
   #contact .contact-section .form-bg-box .contact-box form {
     display: -webkit-box;
