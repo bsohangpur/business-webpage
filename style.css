@@ -490,6 +490,23 @@ Header section .hero-text .hero-paragraph {
   color: #333333;
 }
 
+#contact .contact-section .form-bg-box .contact-box form button {
+  width: 20rem;
+  height: 4rem;
+  border-style: none;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F4FA;
+  color: #333333;
+  cursor: pointer;
+}
+
+#contact .contact-section .form-bg-box .contact-box form button:hover {
+  -webkit-box-shadow: 2px 2px 5px #333333;
+          box-shadow: 2px 2px 5px #333333;
+}
+
 #contact .contact-section .form-bg-box .contact-box .divider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -838,7 +855,6 @@ footer .footer-box h3 {
     height: 100%;
   }
   #contact .contact-section .form-bg-box .contact-box {
-    width: 100%;
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 50rem 10rem 60rem;
@@ -861,9 +877,7 @@ footer .footer-box h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     margin-left: auto;
     margin-right: auto;
     border-radius: 1rem;
