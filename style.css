@@ -62,6 +62,11 @@ Header .menu-item ul li {
   line-height: 3rem;
 }
 
+Header .menu-item ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+
 Header section {
   height: 85%;
   display: -webkit-box;
@@ -236,48 +241,42 @@ Header section .hero-text .hero-paragraph {
           align-items: center;
 }
 
-#Aboutus .testimonal-section {
+#Aboutus .containrer-swiper {
+  height: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#Aboutus .testimonal-section .textimonial-box {
+#Aboutus .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#Aboutus .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 10%;
-  width: 100%;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-#Aboutus .testimonal-section .textimonial-box .testimonal-block {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: -webkit-gradient(linear, left top, right top, color-stop(-15.56%, #E7E7E7), color-stop(114.11%, rgba(255, 255, 255, 0)));
-  background: linear-gradient(90deg, #E7E7E7 -15.56%, rgba(255, 255, 255, 0) 114.11%);
-  -webkit-filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
-          filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
-  border: 2px solid rgba(0, 0, 0, 0.25);
-}
-
-#Aboutus .testimonal-section .textimonial-box .testimonal-block img {
-  width: 20rem;
-}
-
-#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box {
+#Aboutus .testimonial-bg {
+  height: 100%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,39 +284,82 @@ Header section .hero-text .hero-paragraph {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
 }
 
-#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box h2 {
-  font-family: 'Rajdhani';
-  font-style: normal;
-  text-transform: capitalize;
-  line-height: 2.5rem;
-  font-weight: 700;
-  font-size: 2rem;
-  color: black;
+#Aboutus .testimonial-contant {
+  padding: 0.5rem;
+  -webkit-box-shadow: 10px 10px 20px #333333;
+          box-shadow: 10px 10px 20px #333333;
+  border-color: transparent;
+  border: 2rem solid white;
 }
 
-#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box h3 {
-  font-family: 'Rajdhani';
-  font-style: normal;
-  text-transform: capitalize;
-  line-height: 2.5rem;
-  font-weight: 600;
-  font-size: 1.8rem;
-  color: #333333;
+#Aboutus .testimonial-contant p {
+  font-size: 1rem;
+  position: relative;
 }
 
-#Aboutus .testimonal-section .textimonial-box .testimonal-block .testimonal-text-box p {
-  font-family: 'Rajdhani';
-  font-style: normal;
-  text-transform: capitalize;
-  line-height: 2.5rem;
-  font-weight: 300;
+#Aboutus .testimonial-contant p::before {
+  position: absolute;
+  color: #5f5f5f;
+  top: -20px;
+  left: 0px;
+  content: "\f10d";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   font-size: 1.5rem;
-  color: rgba(0, 0, 0, 0.75);
+}
+
+#Aboutus .testimonial-contant p::after {
+  position: absolute;
+  color: #5f5f5f;
+  bottom: -15px;
+  right: 5px;
+  content: "\f10e";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#Aboutus .testimonial-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+#Aboutus .testimonial-detail img {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid #333333;
+  border-radius: 50%;
+}
+
+#Aboutus .testimonial-detail h3,
+#Aboutus h2 {
+  text-transform: capitalize;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: left;
+}
+
+#Aboutus .testimonial-detail h3 {
+  font-weight: bold;
+}
+
+#Aboutus .testimonial-detail h2 {
+  font-weight: 100;
 }
 
 #service {
@@ -435,8 +477,8 @@ Header section .hero-text .hero-paragraph {
 }
 
 #contact .contact-section .form-bg-box {
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 90%;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -791,26 +833,21 @@ footer .footer-box h3 {
   #Aboutus .about-bg-section .about-section .about-img-box img {
     height: 100%;
   }
-  #Aboutus .testimonal-section {
-    width: 100%;
-    height: 30%;
-    justify-items: center;
-    gap: 10%;
-  }
-  #Aboutus .testimonal-section .testimonal-heading {
-    height: 20%;
-  }
-  #Aboutus .testimonal-section .textimonial-box {
+  #Aboutus .containrer-swiper {
     width: 90%;
-    height: 80%;
-    display: -ms-grid;
-    display: grid;
-    grid-auto-flow: column;
-    overflow: hidden;
   }
-  #Aboutus .testimonal-section .textimonial-box .testimonal-block {
-    width: 80vw;
-    height: 80%;
+  #Aboutus .testimonial-bg {
+    width: 70%;
+  }
+  #Aboutus .testimonial-contant p::before {
+    top: -15px;
+  }
+  #Aboutus .testimonial-contant p::after {
+    bottom: -15px;
+  }
+  #Aboutus .testimonial-detail h3,
+  #Aboutus h2 {
+    line-height: 1rem;
   }
   #service {
     gap: 0rem;
